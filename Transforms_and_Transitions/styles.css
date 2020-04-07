@@ -87,7 +87,7 @@ p:hover {
     transform: translate(20px, 20px);
 } */
 
-p {
+/* p {
     width: 50px;
     height: 50px;
     background-color: #1abc9c;
@@ -103,4 +103,29 @@ p {
 .transformed {
     background-color: #9b59b6;
     transform: rotate(45deg);
+} */
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    font-size: 17px;
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.animated {
+    transition-property: background, border-radius;
+    transition-duration: 1s, 2s;
+    transition-delay: 2s, 2s;
+}
+
+.box:hover {
+    background: #e74c3c;
+    transform-origin: top left;
+    transform: scale(2);
+    border-radius: 50px;
+    /* opacity: 0.5; */
 }
