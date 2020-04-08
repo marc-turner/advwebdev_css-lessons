@@ -116,7 +116,7 @@ p:hover {
     text-align: center;
 }
 
-.animated {
+/* .animated {
     transition-property: background, border-radius;
     transition-duration: 1s, 2s;
     transition-delay: 2s, 2s;
@@ -127,5 +127,18 @@ p:hover {
     transform-origin: top left;
     transform: scale(2);
     border-radius: 50px;
-    /* opacity: 0.5; */
+    opacity: 0.5; 
+} */
+
+.animated {
+    /* transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    transition: transform 2s ease 1s, background 4s ease-out 3s;
+}
+
+.box:hover {
+    transform: translateX(300px);
+    background-color: teal;
 }
