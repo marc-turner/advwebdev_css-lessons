@@ -60,7 +60,7 @@ body {
 
     50% {
         background-color: yellow;
-        transform: translate(425px, 0px);
+        transform: translate(400px, 50px);
     }
 
     75% {
@@ -70,6 +70,6 @@ body {
 
     100% {
         background-color: red;
-        transform: translate(850px, 300px);
+        transform: translate(800px, 300px);
     }
 }

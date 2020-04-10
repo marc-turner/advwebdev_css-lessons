@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+html {
+    background: #ecf0f1;
+}
+
+body,
+h1,
+h2 {
+    font-family: Helvetica, Sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    opacity: 0;
+    animation: appear 1s 3s forwards;
+}
+
+.container {
+    margin: 4em;
+    text-align: center;
+}
+
+.loader {
+    border: 20px solid;
+    border-color: red gray green gray;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 150px auto;
+    animation: iconLoop 2s linear infinite;
+}
+
+@keyframes iconLoop {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
