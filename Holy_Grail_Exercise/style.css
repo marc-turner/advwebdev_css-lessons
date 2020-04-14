@@ -78,14 +78,14 @@ footer {
     article {
         margin: 0 0 5px 0;
         order: 1;
-        flex-grow: 8;
+        flex-grow: 15;
     }
     nav {
         margin: 0 0 5px 0;
-        flex-grow: 1;
+        flex-grow: 2;
     }
     aside {
-        flex-grow: 1;
+        flex-grow: 2;
     }
     footer {
         height: 30px;
